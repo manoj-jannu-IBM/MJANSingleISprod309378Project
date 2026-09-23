@@ -47,10 +47,18 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: JMS2waySSL
+  version: "1.0"
+  gitServerName: SIQAGitHubShared
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.mjansingleisprod309378.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SFBasicAuthDesign
   packages:
   - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -73,6 +81,8 @@ services:
 - serviceName: project.mjansingleisprod309378.integrations:CSFlowTPP
   packages:
   - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -120,6 +130,8 @@ services:
   packages:
   - name: MJANSingleISprod309378Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
@@ -149,6 +161,8 @@ services:
 - serviceName: project.mjansingleisprod309378.integrations:ReadGlobalVariable
   packages:
   - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -180,6 +194,8 @@ services:
   packages:
   - name: MJANSingleISprod309378Project
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
@@ -205,6 +221,8 @@ services:
 - serviceName: project.mjansingleisprod309378.integrations:testjms
   packages:
   - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
@@ -234,25 +252,7 @@ services:
     version: 12.1.0.0.1208
 - serviceName: jms2wayssl_publisher:jms2wayssl_publisher
   packages:
-  - name: MJANSingleISprod309378Project
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 12.0.0.0.23
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-  - name: DADA_RefDataDocTypeTests
+  - name: JMS2waySSL
     version: "1.0"
 - serviceName: SSL_JDBC_Test.services:insert_ssl
   packages:
