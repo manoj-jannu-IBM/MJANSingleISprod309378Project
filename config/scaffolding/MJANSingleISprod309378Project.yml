@@ -35,6 +35,11 @@ packages:
   version: 12.0.0.0.23
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: SSL_JDBC_Test
+  gitServerName: SIQAGitHubShared
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.mjansingleisprod309378.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SFBasicAuthDesign
   packages:
