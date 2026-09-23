@@ -5,18 +5,18 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="JMSTest" SERVICE="publisher:publisher">
+<INVOKE NAME="JMSTest" SERVICE="publisher:publisher" DISABLED="true">
   <COMMENT></COMMENT>
   <STEP_LEVEL_PROPERTIES>
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <number name="ttl" type="Long">120</number>
-    <Boolean name="isAsync">false</Boolean>
+    <value name="agentGroup">default</value>
     <value name="agentName">LOCAL</value>
     <value name="displayName">LOCAL</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">local</value>
+    <Boolean name="isAsync">false</Boolean>
+    <number name="ttl" type="Long">120</number>
   </record>
 </Values>
 </STEP_LEVEL_PROPERTIES>
@@ -113,18 +113,18 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher" DISABLED="true">
+<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher">
   <COMMENT></COMMENT>
   <STEP_LEVEL_PROPERTIES>
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <number name="ttl" type="Long">120</number>
-    <Boolean name="isAsync">false</Boolean>
+    <value name="agentGroup">default</value>
     <value name="agentName">LOCAL</value>
     <value name="displayName">LOCAL</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">local</value>
+    <Boolean name="isAsync">false</Boolean>
+    <number name="ttl" type="Long">120</number>
   </record>
 </Values>
 </STEP_LEVEL_PROPERTIES>
@@ -140,8 +140,15 @@
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
     <value name="is_public">false</value>
+    <value name="displayName"></value>
+    <value name="favorite"></value>
+    <value name="tags"></value>
+    <value name="since"></value>
+    <value name="deprecated"></value>
+    <value name="is_visible"></value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
@@ -220,12 +227,12 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <number name="ttl" type="Long">120</number>
-    <Boolean name="isAsync">false</Boolean>
+    <value name="agentGroup">default</value>
     <value name="agentName">LOCAL</value>
     <value name="displayName">LOCAL</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">local</value>
+    <Boolean name="isAsync">false</Boolean>
+    <number name="ttl" type="Long">120</number>
   </record>
 </Values>
 </STEP_LEVEL_PROPERTIES>
