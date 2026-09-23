@@ -54,10 +54,35 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
 - serviceName: project.mjansingleisprod309378.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:OracleDBAccount
+  packages:
+  - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+- serviceName: project.mjansingleisprod309378.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getData
   packages:
   - name: MJANSingleISprod309378Project
     version: "1.0"
@@ -185,6 +210,30 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.mjansingleisprod309378.integrations:DBFlowOracle
+  packages:
+  - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
 - serviceName: project.mjansingleisprod309378.integrations:ReadGlobalVariable
   packages:
   - name: MJANSingleISprod309378Project
