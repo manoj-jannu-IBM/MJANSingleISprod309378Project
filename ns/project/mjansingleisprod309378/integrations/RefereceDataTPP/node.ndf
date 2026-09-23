@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Gen-SIQA-Test@ibm.com</value>
-    <value name="lastModifiedDate">2026-09-23T13:20:07.345086766Z</value>
+    <value name="lastModifiedDate">2026-09-23T13:21:20.335723981Z</value>
     <value name="displayName">RefereceDataTPP</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -79,6 +79,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">Gen-SIQA-Test@ibm.com</value>
