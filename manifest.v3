@@ -14,17 +14,18 @@
     <value name="SIQACloudStreamsTests">1.0</value>
     <value name="DADA_GlobalVariable1">1.0</value>
     <value name="DADA_RefDataDocTypeTests">1.0</value>
+    <value name="WmSalesforceProvider">12.0.0.0.23</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">10</value>
+  <value name="build">11</value>
   <null name="description"/>
   <value name="created_date">23-09-2026 12:24:19 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-09-23T12:45:57.490983956Z</value>
+  <value name="lastUpdated">2026-09-23T12:46:17.968721841Z</value>
   <value name="creator">gen-SIQA-Test gen-SIQA-Test</value>
 </Values>
