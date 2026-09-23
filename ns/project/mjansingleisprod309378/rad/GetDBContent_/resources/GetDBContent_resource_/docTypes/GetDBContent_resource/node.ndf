@@ -6,6 +6,12 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">project.mjansingleisprod309378.rad.GetDBContent_.resources.GetDBContent_resource_.docTypes:GetDBContent_resource</value>
     <value name="node_pkg">MJANSingleISprod309378Project</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <value name="createdBy">Gen-SIQA-Test@ibm.com</value>
+      <value name="modifiedBy">Gen-SIQA-Test@ibm.com</value>
+      <value name="createdDate">2026-09-23T13:32:44.986071807Z</value>
+      <value name="lastModifiedDate">2026-09-23T13:33:04.543209118Z</value>
+    </record>
     <value name="is_public">false</value>
     <value name="field_name">GetDBContent_resource</value>
     <value name="field_type">record</value>
@@ -16,11 +22,6 @@
     <array name="rec_fields" type="record" depth="1">
     </array>
     <value name="modifiable">false</value>
-    <record name="node_hints" javaclass="com.wm.util.Values">
-      <value name="createdBy">Gen-SIQA-Test@ibm.com</value>
-      <value name="modifiedBy">Gen-SIQA-Test@ibm.com</value>
-      <value name="createdDate">2026-09-23T13:32:44.986071807Z</value>
-      <value name="lastModifiedDate">2026-09-23T13:32:44.986071807Z</value>
-    </record>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
