@@ -8,22 +8,69 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQAJDBCAdapterTests
+  version: "1.0"
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQACloudStreamsTests
+  version: "1.0"
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_GlobalVariable1
+  version: "1.0"
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_RefDataDocTypeTests
+  version: "1.0"
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+services:
+- serviceName: project.mjansingleisprod309378.integrations:CSFlowTPP
+  packages:
+  - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+- serviceName: SIQACloudStreamsTests:connetorOperations
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+- serviceName: SIQACloudStreamsTests:createAccountConnectorService
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+- serviceName: SIQACloudStreamsTests:retrieveAccountConnectorService
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+- serviceName: SIQACloudStreamsTests:deleteAccountConnectorService
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
