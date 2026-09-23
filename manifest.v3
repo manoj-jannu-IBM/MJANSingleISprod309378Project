@@ -20,12 +20,12 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">26</value>
+  <value name="build">27</value>
   <null name="description"/>
   <value name="created_date">23-09-2026 12:24:19 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-09-23T13:21:23.179622688Z</value>
+  <value name="lastUpdated">2026-09-23T13:21:46.390062649Z</value>
   <value name="creator">gen-SIQA-Test gen-SIQA-Test</value>
 </Values>
