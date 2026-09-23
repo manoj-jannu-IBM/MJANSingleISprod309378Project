@@ -113,7 +113,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher" DISABLED="true">
+<INVOKE NAME="JMS2waySSL" SERVICE="jms2wayssl_publisher:jms2wayssl_publisher">
   <COMMENT></COMMENT>
   <STEP_LEVEL_PROPERTIES>
 
