@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: MJANSingleISprod309378Project
+runtimes:
+- runtimeAlias: MJANSingleIS
+  assets:
+  - name: InvokeDAFTPP
+    type: workflow
+    uid: flc214a98fc5884826aec9456f961204ae
+    stepId: a0
+    reference: GB_1:readGlobalvariable
