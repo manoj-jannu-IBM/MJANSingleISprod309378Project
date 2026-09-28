@@ -3,31 +3,31 @@ info:
   model: int-scaffold
 packages:
 - name: MJANSingleISprod309378Project
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQAJDBCAdapterTests
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQACloudStreamsTests
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_GlobalVariable1
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_RefDataDocTypeTests
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
@@ -37,19 +37,19 @@ packages:
   wpmRegistry: supported
 - name: SSL_JDBC_Test
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: JMSTest
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: JMS2waySSL
   version: "1.0"
-  gitServerName: SIQAGitHubShared
+  gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
@@ -84,79 +84,7 @@ security:
     format: PKCS12
     provider: SUN
 services:
-- serviceName: project.mjansingleisprod309378.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:OracleDBAccount
-  packages:
-  - name: MJANSingleISprod309378Project
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 12.0.0.0.23
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-  - name: DADA_RefDataDocTypeTests
-    version: "1.0"
-- serviceName: project.mjansingleisprod309378.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:OracleDBAccountSSL
-  packages:
-  - name: MJANSingleISprod309378Project
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 12.0.0.0.23
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-  - name: DADA_RefDataDocTypeTests
-    version: "1.0"
 - serviceName: project.mjansingleisprod309378.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getData
-  packages:
-  - name: MJANSingleISprod309378Project
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 12.0.0.0.23
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-  - name: DADA_RefDataDocTypeTests
-    version: "1.0"
-- serviceName: project.mjansingleisprod309378.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SFBasicAuthDesign
   packages:
   - name: MJANSingleISprod309378Project
     version: "1.0"
@@ -315,7 +243,7 @@ services:
 - serviceName: pub.globalVariable:getGlobalVariable
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1208
+    version: 12.1.0.0.1211
 - serviceName: project.mjansingleisprod309378.integrations:RefereceDataTPP
   packages:
   - name: MJANSingleISprod309378Project
@@ -370,16 +298,36 @@ services:
     version: "1.0"
 - serviceName: publisher:publisher
   packages:
+  - name: MJANSingleISprod309378Project
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
-- serviceName: pub.jms:send
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1208
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.23
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
 - serviceName: jms2wayssl_publisher:jms2wayssl_publisher
   packages:
   - name: JMS2waySSL
     version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1211
 - serviceName: SSL_JDBC_Test.services:insert_ssl
   packages:
   - name: SSL_JDBC_Test
