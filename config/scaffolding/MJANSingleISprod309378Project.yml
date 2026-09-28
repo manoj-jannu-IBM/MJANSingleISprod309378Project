@@ -298,36 +298,16 @@ services:
     version: "1.0"
 - serviceName: publisher:publisher
   packages:
-  - name: MJANSingleISprod309378Project
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
   - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceProvider
-    version: 12.0.0.0.23
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-  - name: DADA_RefDataDocTypeTests
-    version: "1.0"
-- serviceName: jms2wayssl_publisher:jms2wayssl_publisher
-  packages:
-  - name: JMS2waySSL
     version: "1.0"
 - serviceName: pub.jms:send
   packages:
   - name: WmPublic
     version: 12.1.0.0.1211
+- serviceName: jms2wayssl_publisher:jms2wayssl_publisher
+  packages:
+  - name: JMS2waySSL
+    version: "1.0"
 - serviceName: SSL_JDBC_Test.services:insert_ssl
   packages:
   - name: SSL_JDBC_Test
