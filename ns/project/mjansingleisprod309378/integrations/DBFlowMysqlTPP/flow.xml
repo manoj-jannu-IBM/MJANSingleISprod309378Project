@@ -12,9 +12,9 @@
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
     <value name="agentGroup">default</value>
-    <value name="agentName">CloudDesigntime</value>
-    <value name="displayName">Cloud Designtime</value>
-    <value name="executionPlaneType">cloud</value>
+    <value name="agentName">MJANSingleIS</value>
+    <value name="displayName">MJANSingleIS</value>
+    <value name="executionPlaneType">onprem</value>
     <Boolean name="isAsync">false</Boolean>
     <number name="ttl" type="Long">120</number>
   </record>
@@ -117,7 +117,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">CloudDesigntime</value>
+  <value name="xml">MJANSingleIS</value>
 </Values>
 </DATA>
 </MAPSET>
