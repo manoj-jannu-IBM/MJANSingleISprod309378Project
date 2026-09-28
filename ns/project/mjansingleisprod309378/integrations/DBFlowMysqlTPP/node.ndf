@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Gen-SIQA-Test@ibm.com</value>
-    <value name="lastModifiedDate">2026-09-28T07:25:33.424131685Z</value>
+    <value name="lastModifiedDate">2026-09-28T07:26:21.703818662Z</value>
     <value name="displayName">DBFlowMysqlTPP</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,10 +60,10 @@
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
         <record name="selectedRuntime" javaclass="com.wm.util.Values">
-          <value name="agentName">LOCAL</value>
-          <value name="displayName">LOCAL</value>
+          <value name="agentName">CloudDesigntime</value>
+          <value name="displayName">Cloud Designtime</value>
           <value name="agentGroup">default</value>
-          <value name="executionPlaneType">local</value>
+          <value name="executionPlaneType">cloud</value>
         </record>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
