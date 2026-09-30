@@ -8,3 +8,10 @@ runtimes:
     uid: flc214a98fc5884826aec9456f961204ae
     stepId: a0
     reference: GB_1:readGlobalvariable
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Untitled Workflow
+    type: workflow
+    uid: fl7fac813d74854a3e989ad029bbc0c0c5
+    stepId: a0
+    reference: project.mjansingleisprod309378.integrations:DBFlowMysqlTPP
