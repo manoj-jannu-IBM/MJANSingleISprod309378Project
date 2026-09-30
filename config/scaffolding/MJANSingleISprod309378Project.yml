@@ -243,7 +243,7 @@ services:
 - serviceName: pub.globalVariable:getGlobalVariable
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1211
+    version: 12.1.0.0.1212
 - serviceName: project.mjansingleisprod309378.integrations:RefereceDataTPP
   packages:
   - name: MJANSingleISprod309378Project
@@ -303,7 +303,7 @@ services:
 - serviceName: pub.jms:send
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1211
+    version: 12.1.0.0.1212
 - serviceName: jms2wayssl_publisher:jms2wayssl_publisher
   packages:
   - name: JMS2waySSL
@@ -318,4 +318,4 @@ services:
     wpmRegistry: licensed
 configurationVariables:
   globalvariable.DADA_GlobalVariable1.GV1.isLinkedToVault: "false"
-  globalvariable.DADA_GlobalVariable1.GV1.value: GV1Updated
+  globalvariable.DADA_GlobalVariable1.GV1.value: GVUpdated
